@@ -44,6 +44,14 @@ header nav ul li a {
 	margin-right: 10px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	-webkit-transition: .25s;
+	-moz-transition: .25s;
+	-o-transition: .25s;
+	transition: .25s;
+}
+
+header nav ul li a:hover {
+	color: #000;
 }
 
 /*-------------------------------------------------
